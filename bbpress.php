@@ -966,6 +966,7 @@ class bbPress {
 
 		// Return merged rules
 		return $wp_rewrite;
+		
 	}
 }
 
