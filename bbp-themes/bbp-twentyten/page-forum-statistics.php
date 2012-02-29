@@ -120,5 +120,5 @@ extract( bbp_get_statistics(), EXTR_SKIP );
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+<?php #get_sidebar(); ?>
 <?php get_footer(); ?>
