@@ -274,7 +274,7 @@ class BBP_Shortcodes {
 		if ( bbp_user_can_view_forum( array( 'forum_id' => $forum_id ) ) ) {
 
 			// Breadcrumb
-			bbp_breadcrumb();
+			#bbp_breadcrumb();
 
 			// Before single forum
 			do_action( 'bbp_template_before_single_forum' );
