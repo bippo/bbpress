@@ -1545,6 +1545,7 @@ function bbp_breadcrumb( $args = array() ) {
 			// Forum root
 			'include_root'    => $pre_include_root,
 			'root_text'       => $pre_root_text,
+				
 
 			// Current
 			'include_current' => $pre_include_current,
@@ -1576,7 +1577,7 @@ function bbp_breadcrumb( $args = array() ) {
 			}
 
 			// Add the breadcrumb
-			$breadcrumbs[] = '<a href="' . $root_url . '" class="bbp-breadcrumb-root">' . $root_text . '</a>';
+// 			$breadcrumbs[] = '<a href="' . $root_url . '" class="bbp-breadcrumb-root">' . $root_text . '</a>';
 		}
 
 		// Ancestors exist
