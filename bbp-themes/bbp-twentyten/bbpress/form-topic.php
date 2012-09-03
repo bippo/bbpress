@@ -23,7 +23,9 @@
 
 	<?php endif; ?>
 
-	<?php if ( bbp_current_user_can_access_create_topic_form() ) : ?>
+	<?php //if ( bbp_current_user_can_access_create_topic_form() ) : //this is when all activities need log in ?>
+	
+	<?php if ( bbp_current_user_can_access_create_topic_form() && is_user_logged_in() ) : //this is when forum need log in to create topic & not need log in to reply topic ?>
 
 		<div id="new-topic-<?php bbp_topic_id(); ?>" class="bbp-topic-form">
 
