@@ -23,7 +23,7 @@
 
 	<?php endif; ?>
 
-	<?php //if ( bbp_current_user_can_access_create_topic_form() ) : //this is when all activities need log in ?>
+	<?php //if ( bbp_current_user_can_access_create_topic_form() ) : //this is when all activities need log in (see on forum setting) ?>
 	
 	<?php if ( bbp_current_user_can_access_create_topic_form() && is_user_logged_in() ) : //this is when forum need log in to create topic & not need log in to reply topic ?>
 
